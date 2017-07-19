@@ -18,40 +18,19 @@ FEDORA:
 ```
 
 ## Usage
-**bitcoin-passphrase-generator.sh** script requires two arguments:
-- the first argument determines the number of random words generated
-- the second argument determines specifies the number of characters per word
+**bitcoin-passphrase-generator.sh** script requires a single argument to determine the number of random words to be generated
 
 ### Example
-Generate five random keywords with eight characters per word:
+Generate 24 random keywords:
 ```
-$ ./bitcoin-passphrase-generator.sh 5 8
-kickoffs toiletry brothers cowlings boarders
+$ ./bitcoin-passphrase-generator.sh 24
+Generating a random word list from 62887 words:
+departures inebriated pecans riddles totter suspender grannie cures preachier refulgent uselessly crumpet swab plainclothesmen agendas calisthenic smothering enclosure pathetic skylarked whined clacks encores slogan
 ```
-Generate ten random keywords with five characters per word:
+Generate 10 random keyword:
 ```
-$ ./bitcoin-passphrase-generator.sh 10 5
-yowls vasts paddy nanny toast loved nerds based bunks rover
+$ ./bitcoin-passphrase-generator.sh 10
+Generating a random word list from 62887 words:
+exigencies marchers sublet splicers transcends handling uninformative plowmen lumpiness diuretic
 ```
 
-## Word lists
-
-The following table shows the number of words available per requested number of characters. Depending on the version of wordlist version installed on your system the below numbers may vary:
-
-| Number of Characters | Number of Words |
-| --- |---| 
-| 1 | 26 |
-| 2 | 64 |
-| 3 | 586 |
-| 4 | 2345 |
-| 5 | 4581 |
-| 6 | 7237 |
-| 7 | 9843 |
-| 8 | 10396 |
-| 9 | 9228 |
-| 10 | 7334 |
-| 11 | 5018 |
-| 12 | 3178 |
-| 13 | 1779 |
-| 14 | 789 |
-| 15 | 369 |
