@@ -1,12 +1,14 @@
 # Bitcoin Random Word Passphrase Generator
 This script can be used to generate random passphrase words for bitcoin wallets.
 
+Script's homepage: [Bitcoin Random Word Passphrase Generator](https://linuxconfig.org/how-to-generate-random-word-passphrase-for-bitcoin-wallet-on-linux-system)
+
 
 ## Prerequisites
-The requires **/usr/share/dict/words** wordlist file available on your system. Before using this script install wordlist from a standard repository of your Linux distribution.
+The **Bitcoin Random Word Passphrase Generator** script requires **/usr/share/dict/words** wordlist file available on your system. Before using this script install wordlist from a standard repository of your Linux distribution.
 ```
 UBUNTU / DEBIAN
-# apt install wamerican-small"
+# apt install wamerican-small
 
 CENTOS / REDHAT:
 # yum install words
@@ -36,7 +38,7 @@ yowls vasts paddy nanny toast loved nerds based bunks rover
 
 The following table shows the number of words available per requested number of characters. Depending on the version of wordlist version installed on your system the below numbers may vary:
 
-| Characters | Number of Words |
+| Number of Characters | Number of Words |
 | --- |---| 
 | 1 | 26 |
 | 2 | 64 |
